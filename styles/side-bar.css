@@ -27,3 +27,28 @@
     font-size: 10px;
     padding-top: 8px;
 }
+@media only screen and (max-device-width: 480px){
+    .sidebar {
+        top: 110px;
+        width: 120px;
+        padding-top: 0;
+    }
+   
+  
+    .sidebar-link img {
+        width: 60px;   
+    }
+    .sidebar-link {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .sidebar-link div {
+        font-family: roboto;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
