@@ -91,3 +91,26 @@
     border-style: solid;
     border-color: white;
 }
+@media only screen and (max-device-width: 480px){
+
+    @media (min-width: 480px) {
+        .all-videos-div {
+            grid-template-columns: 1fr 
+        }
+    }
+    
+    
+    .first-div {
+        max-width: 800px;
+    }
+    
+    .vid-time {
+        font-size: 50px;
+        padding: 5px 5px;
+        border-radius: 2px;
+       
+        right: 10px;
+        bottom: 20px;
+    }
+    
+}
