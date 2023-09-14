@@ -34,11 +34,20 @@
     column-gap: 14px;
     row-gap: 40px;
 }
-@media (max-width: 750px) {
+@media (max-width: 480px) {
+    
+    .all-videos-div {
+        grid-template-columns: 1fr  
+    }
+}
+
+@media (min-width: 481px) and (max-width: 750px) {
+    
     .all-videos-div {
         grid-template-columns: 1fr 1fr 
     }
 }
+
 @media (min-width: 751px) and (max-width: 999px) {
     .all-videos-div {
         grid-template-columns: 1fr 1fr 1fr
@@ -73,24 +82,7 @@
 .third {
     position: relative;
 }
-.red-notification {
-    position: absolute;
-    background-color: rgb(208, 36, 36);
-    border-radius: 10px;
-    color: white;
-    font-family: roboto;
-    font-size: 11px;
-    width: 8px;
-    padding-left: 5px;
-    padding-right: 4px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    top: -3px;
-    right:-7px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-}
+
 @media only screen and (max-device-width: 480px){
 
     @media (min-width: 480px) {
@@ -133,10 +125,8 @@
     }
     
     .vid-time {
-        font-size: 50px;
-        padding: 5px 5px;
+        font-size: 30px;
         border-radius: 2px;
-       
         right: 20px;
         bottom: 40px;
     }
